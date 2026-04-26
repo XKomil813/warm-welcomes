@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700;9..144,800&family=Inter:wght@400;500;600;700&display=swap');
 @import "tailwindcss" source(none);
 @source "../src";
 @import "tw-animate-css";
@@ -9,8 +10,6 @@
  * Yumshoq, juft ranglar: cream, sage green, terracotta, dusty blue
  * Fontlar: Fraunces (display) + Inter (body) — Google Fonts CDN
  */
-
-@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700;9..144,800&family=Inter:wght@400;500;600;700&display=swap');
 
 @theme inline {
   --font-display: "Fraunces", Georgia, serif;
