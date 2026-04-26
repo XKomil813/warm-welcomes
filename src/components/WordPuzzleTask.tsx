@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 type Puzzle = {
   letters: string[];
@@ -21,7 +21,11 @@ function shuffle(arr: string[]) {
 
 function PuzzleCircle({ puzzle, idx }: { puzzle: Puzzle; idx: number }) {
   const [order, setOrder] = useState<number[]>([]);
-  const [shuffled] = useState(() => shuffle(puzzle.letters));
+  // Avoid SSR hydration mismatch — start with stable order, shuffle on mount only.
+  const [shuffled, setShuffled] = useState<string[]>(() => puzzle.letters);
+  useEffect(() => {
+    setShuffled(shuffle(puzzle.letters));
+  }, [puzzle.letters]);
   const [checked, setChecked] = useState<null | boolean>(null);
 
   const click = (i: number) => {
