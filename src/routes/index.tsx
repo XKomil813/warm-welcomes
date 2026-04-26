@@ -48,7 +48,7 @@ function Index() {
               Topshiriqlar
             </h2>
             <p className="mt-4 text-muted-foreground max-w-2xl mx-auto">
-              Mavzuni o'zlashtirganingizni tekshiring. To'rt xil topshiriq sizni kutmoqda.
+              Mavzuni o'zlashtirganingizni tekshiring. Yetti xil topshiriq sizni kutmoqda.
             </p>
           </div>
 
@@ -57,6 +57,9 @@ function Index() {
             <MatchTask />
             <WordPuzzleTask />
             <ReflectionTask />
+            <TableTask />
+            <InterviewTask />
+            <GrammarTask />
           </div>
         </div>
       </section>
