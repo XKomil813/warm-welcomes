@@ -7,6 +7,9 @@ import { QuizTask } from "@/components/QuizTask";
 import { MatchTask } from "@/components/MatchTask";
 import { WordPuzzleTask } from "@/components/WordPuzzleTask";
 import { ReflectionTask } from "@/components/ReflectionTask";
+import { TableTask } from "@/components/TableTask";
+import { InterviewTask } from "@/components/InterviewTask";
+import { GrammarTask } from "@/components/GrammarTask";
 
 export const Route = createFileRoute("/")({
   component: Index,
