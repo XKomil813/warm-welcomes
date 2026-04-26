@@ -66,14 +66,6 @@ function Index() {
         </div>
       </section>
 
-      <footer className="border-t border-border mt-10 py-10 px-6 bg-card/50">
-        <div className="max-w-5xl mx-auto text-center text-sm text-muted-foreground">
-          <p className="font-display text-lg text-foreground mb-2">
-            Muvaffaqiyatli insonning 6 siri
-          </p>
-          <p>8-sinf · Ona tili · 10.14-mavzu · O'quv maqsadida tayyorlangan</p>
-        </div>
-      </footer>
     </main>
   );
 }
