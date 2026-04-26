@@ -42,8 +42,8 @@ export function Hero() {
         <div className="mt-20 grid grid-cols-3 gap-6 max-w-md animate-fade-up" style={{ animationDelay: "480ms" }}>
           {[
             { n: "6", l: "ta sir" },
-            { n: "4", l: "topshiriq" },
-            { n: "10+", l: "shaxs" },
+            { n: "7", l: "topshiriq" },
+            { n: "9", l: "shaxs" },
           ].map((s) => (
             <div key={s.l}>
               <div className="number-display text-4xl text-clay">{s.n}</div>
