@@ -10,6 +10,7 @@ import { ReflectionTask } from "@/components/ReflectionTask";
 import { TableTask } from "@/components/TableTask";
 import { InterviewTask } from "@/components/InterviewTask";
 import { GrammarTask } from "@/components/GrammarTask";
+import { CrosswordTask } from "@/components/CrosswordTask";
 
 export const Route = createFileRoute("/")({
   component: Index,
@@ -48,7 +49,7 @@ function Index() {
               Topshiriqlar
             </h2>
             <p className="mt-4 text-muted-foreground max-w-2xl mx-auto">
-              Mavzuni o'zlashtirganingizni tekshiring. Yetti xil topshiriq sizni kutmoqda.
+              Mavzuni o'zlashtirganingizni tekshiring. Sakkiz xil topshiriq sizni kutmoqda.
             </p>
           </div>
 
@@ -60,6 +61,7 @@ function Index() {
             <TableTask />
             <InterviewTask />
             <GrammarTask />
+            <CrosswordTask />
           </div>
         </div>
       </section>
