@@ -26,7 +26,7 @@ const secrets = [
   {
     n: "05",
     title: "Qiziqishlaringiz bo'yicha suhbatdosh toping",
-    desc: '"Powers Of Two" kitobiga ko'ra: Lennon va Makkartni, Stiv Jobs va Voznyak — barchasi birgalikda ulug' ishlarni qilishgan.',
+    desc: "\"Powers Of Two\" kitobiga ko'ra: Lennon va Makkartni, Stiv Jobs va Voznyak — barchasi birgalikda ulug' ishlarni qilishgan.",
     color: "sage",
   },
   {
